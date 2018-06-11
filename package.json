@@ -1,0 +1,26 @@
+{
+  "name": "agenty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "player.js",
+  "scripts": {
+    "start": "node player.js test 1000 weak 30",
+    "weak": "node player.js weak_player 1000 weak 30",
+    "mid": "node player.js mid_player 1000 mid 20",
+    "strong": "node player.js strong_player 1000 strong 10",
+    "dev": "nodemon player.js test 1000 week 30",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "goog": "^0.2.1",
+    "google-protobuf": "^3.5.0",
+    "lodash": "^4.17.10",
+    "protobufjs": "^6.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}

@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+// option java_outer_classname = "StockProtos";
+
+message Stock {
+    required string id = 1; // STOCK NAME
+    required string action_id = 2; // ACTION NAME
+    required int64 amount = 3;
+    required double price = 4;
+}
